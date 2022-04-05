@@ -1,9 +1,10 @@
 import React from 'react';
 import propTypes from 'prop-types';
+import './index.scss';
 
-export default function Start({ className, value, height, width, spacing }) {
+export default function Star({ className, value, height, width, spacing }) {
   const decimals = Number(value) % 1;
-  const star = {};
+  const star = [];
   let leftPost = 0;
 
   for (let index = 0; index < 5 && index < value - decimals; index++) {
@@ -11,8 +12,13 @@ export default function Start({ className, value, height, width, spacing }) {
     star.push(
       <div
         className="star"
-        key={`start-$(index)`}
-        style={{ left: index * width, width: width, marginRight: spacing }}
+        key={`star-${index}`}
+        style={{
+          left: index * width,
+          height: height,
+          width: width,
+          marginRight: spacing,
+        }}
       ></div>
     );
   }
@@ -20,10 +26,11 @@ export default function Start({ className, value, height, width, spacing }) {
     star.push(
       <div
         className="star"
-        key={`start-$(index)`}
+        key={`starWithDecimal`}
         style={{
-          left: leftPost * width,
-          width: width - spacing,
+          left: leftPost,
+          height: height,
+          width: decimals * width - spacing,
         }}
       ></div>
     );
@@ -34,8 +41,13 @@ export default function Start({ className, value, height, width, spacing }) {
     star.push(
       <div
         className="star placeholder"
-        key={`startPlaceholder-$(index)`}
-        style={{ left: index * width, width: width, marginRight: spacing }}
+        key={`starPlaceholder-${index}`}
+        style={{
+          left: index * width,
+          height: height,
+          width: width,
+          marginRight: spacing,
+        }}
       ></div>
     );
   }
@@ -52,7 +64,7 @@ export default function Start({ className, value, height, width, spacing }) {
   );
 }
 
-Start.prototype = {
+Star.prototype = {
   className: propTypes.String,
   value: propTypes.Number,
   height: propTypes.Number,
