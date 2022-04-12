@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import propTypes from 'prop-types';
 
 function Date(props) {
@@ -13,7 +13,9 @@ function Date(props) {
       },
     };
     props.onChange(target);
-  };
+    };
+    
+    useEffect({})
 
   return <div>index</div>;
 }
