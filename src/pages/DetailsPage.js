@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Header from 'parts/Header';
-
 import PageDetalTitle from 'parts/PageDetailTitle';
+import FeaturedImage from 'parts/FeaturedImage';
+import PageDetailDescription from 'parts/PageDetailDescription';
 
 import itemDetails from 'json/itemDetails.json';
 
@@ -22,6 +23,15 @@ export default class DetailsPage extends Component {
           breadcrumb={breadcrumb}
           data={itemDetails}
         ></PageDetalTitle>
+        <FeaturedImage data={itemDetails.imageUrls}></FeaturedImage>
+        <section className="container">
+          <div className="row">
+            <div className="col-7 pr-5">
+              <PageDetailDescription data={itemDetails}></PageDetailDescription>
+            </div>
+            <div className="col-5">booking form</div>
+          </div>
+        </section>
       </>
     );
   }
