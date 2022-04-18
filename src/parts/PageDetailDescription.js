@@ -19,10 +19,8 @@ export default function PageDetailDescription({ data }) {
                 className="d-block mb-2"
                 src={feature.imageUrl}
                 alt={feature.name}
-              />
-              {''}
-              <span>{feature.qty}</span>
-              {''}
+              />{' '}
+              <span>{feature.qty}</span>{' '}
               <span className="text-gray-500 font-weight-light">
                 {feature.name}
               </span>

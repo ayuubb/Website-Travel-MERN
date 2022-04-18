@@ -3,6 +3,10 @@ import Header from 'parts/Header';
 import PageDetalTitle from 'parts/PageDetailTitle';
 import FeaturedImage from 'parts/FeaturedImage';
 import PageDetailDescription from 'parts/PageDetailDescription';
+import BookingForm from 'parts/BookingForm';
+import Categories from 'parts/Categories';
+import Testimony from 'parts/Testimony';
+import Footer from 'parts/Footer';
 
 import itemDetails from 'json/itemDetails.json';
 
@@ -18,20 +22,25 @@ export default class DetailsPage extends Component {
     ];
     return (
       <>
-        <Header {...this.props}></Header>
+        <Header {...this.props} />
         <PageDetalTitle
           breadcrumb={breadcrumb}
           data={itemDetails}
         ></PageDetalTitle>
-        <FeaturedImage data={itemDetails.imageUrls}></FeaturedImage>
+        <FeaturedImage data={itemDetails.imageUrls} />
         <section className="container">
           <div className="row">
             <div className="col-7 pr-5">
-              <PageDetailDescription data={itemDetails}></PageDetailDescription>
+              <PageDetailDescription data={itemDetails} />
             </div>
-            <div className="col-5">booking form</div>
+            <div className="col-5">
+              <BookingForm itemDetails={itemDetails} />
+            </div>
           </div>
         </section>
+        <Categories data={itemDetails.categories} />
+        <Testimony data={itemDetails.testimonial} />
+        <Footer />
       </>
     );
   }
