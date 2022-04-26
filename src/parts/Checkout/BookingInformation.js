@@ -17,7 +17,7 @@ export default function BookingInformation(props) {
                   <img
                     className="img-cover"
                     // src={`${process.env.REACT_APP_HOST}/${ItemDetails.imageId[0].imageUrl}`}
-                    src={ItemDetails.imageUrls[0].imageUrl}
+                    src={ItemDetails.imageUrls[0].url}
                     alt={ItemDetails.title}
                   />
                 </figure>

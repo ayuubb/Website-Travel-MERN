@@ -71,31 +71,36 @@ export default class Checkout extends Component {
 
   render() {
     const { data } = this.state;
-    const { checkout, page } = this.props;
-    console.log(page, data);
-    if (!checkout)
-      return (
-        <div className="container">
-          <div
-            className="row align-items-center justify-content-center text-center"
-            style={{ height: '100vh' }}
-          >
-            <div className="col-3">
-              Pilih kamar dulu
-              <div>
-                <Button
-                  className="btn mt-5"
-                  type="button"
-                  onClick={() => this.props.history.goBack()}
-                  isLight
-                >
-                  Back
-                </Button>
-              </div>
-            </div>
-          </div>
-        </div>
-      );
+
+    const checkout = {
+      duration: 0,
+    };
+
+    // const { checkout, page } = this.props;
+    // console.log(page, data);
+    // if (!checkout)
+    //   return (
+    //     <div className="container">
+    //       <div
+    //         className="row align-items-center justify-content-center text-center"
+    //         style={{ height: '100vh' }}
+    //       >
+    //         <div className="col-3">
+    //           Pilih kamar dulu
+    //           <div>
+    //             <Button
+    //               className="btn mt-5"
+    //               type="button"
+    //               onClick={() => this.props.history.goBack()}
+    //               isLight
+    //             >
+    //               Back
+    //             </Button>
+    //           </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    //   );
 
     const steps = {
       bookingInformation: {
@@ -134,7 +139,6 @@ export default class Checkout extends Component {
     return (
       <>
         <Header isCentered />
-
         <Stepper steps={steps} initialStep="payment">
           {(prevStep, nextStep, CurrentStep, steps) => (
             <>
