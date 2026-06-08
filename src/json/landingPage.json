@@ -1,184 +1,184 @@
 {
   "hero": {
-    "travelers": 80409,
-    "treasures": 882,
-    "cities": 1492
+    "travelers": 64218,
+    "treasures": 947,
+    "cities": 1280
   },
   "mostPicked": [
     {
-      "_id": "asd1293uasdads1",
-      "name": "Jung Hook Sie",
-      "type": "Apartment",
+      "_id": "prop-amalfi-coast-01",
+      "name": "Amalfi Cliff Retreat",
+      "type": "Villa",
       "imageUrl": "/images/image-mostpicked-1.jpg",
-      "country": "South Korea",
-      "city": "Seoul Flore",
-      "price": "80",
+      "country": "Italy",
+      "city": "Amalfi",
+      "price": "120",
       "unit": "night"
     },
     {
-      "_id": "asd1293uasdads1",
-      "name": "The People House",
+      "_id": "prop-kyoto-machiya-02",
+      "name": "Kyoto Machiya House",
       "type": "Hotel",
       "imageUrl": "/images/image-mostpicked-2.jpg",
-      "country": "Indonesia",
-      "city": "Bogor",
-      "price": "52",
+      "country": "Japan",
+      "city": "Kyoto",
+      "price": "88",
       "unit": "night"
     },
     {
-      "_id": "asd1293uasdads1",
-      "name": "House Tour",
-      "type": "Rumah",
-      "imageUrl": "/images/image-mostpicked-3.jpg",
-      "country": "South Korea",
-      "city": "Seoul Flore",
-      "price": "80",
-      "unit": "night"
-    },
-    {
-      "_id": "asd1293uasdads1",
-      "name": "Jung Hook Sie",
+      "_id": "prop-santorini-blue-03",
+      "name": "Santorini Blue Suite",
       "type": "Apartment",
-      "imageUrl": "/images/image-mostpicked-4.jpg",
-      "country": "South Korea",
-      "city": "Seoul Flore",
-      "price": "80",
+      "imageUrl": "/images/image-mostpicked-3.jpg",
+      "country": "Greece",
+      "city": "Oia",
+      "price": "145",
       "unit": "night"
     },
     {
-      "_id": "asd1293uasdads1",
-      "name": "Jung Hook Sie",
+      "_id": "prop-bali-jungle-04",
+      "name": "Ubud Jungle Lodge",
+      "type": "Villa",
+      "imageUrl": "/images/image-mostpicked-4.jpg",
+      "country": "Indonesia",
+      "city": "Ubud",
+      "price": "76",
+      "unit": "night"
+    },
+    {
+      "_id": "prop-lisbon-tile-05",
+      "name": "Lisbon Tile Townhouse",
       "type": "Apartment",
       "imageUrl": "/images/image-mostpicked-5.jpg",
-      "country": "South Korea",
-      "city": "Seoul Flore",
-      "price": "80",
+      "country": "Portugal",
+      "city": "Lisbon",
+      "price": "94",
       "unit": "night"
     }
   ],
   "categories": [
     {
-      "_id": "asd1293uasdads1",
-      "name": "House with beauty backyard",
+      "_id": "cat-beachfront-escapes",
+      "name": "Beachfront escapes with ocean views",
       "items": [
         {
-          "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
+          "_id": "item-coral-bay",
+          "name": "Coral Bay House",
           "imageUrl": "/images/image-category-1.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Australia",
+          "city": "Byron Bay",
           "isPopular": true
         },
         {
-          "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
+          "_id": "item-azure-shore",
+          "name": "Azure Shore Villa",
           "imageUrl": "/images/image-category-2.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Spain",
+          "city": "Ibiza",
           "isPopular": false
         },
         {
-          "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
+          "_id": "item-palm-cove",
+          "name": "Palm Cove Bungalow",
           "imageUrl": "/images/image-category-3.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Thailand",
+          "city": "Krabi",
           "isPopular": false
         },
         {
-          "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
+          "_id": "item-driftwood",
+          "name": "Driftwood Cabin",
           "imageUrl": "/images/image-category-4.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Mexico",
+          "city": "Tulum",
           "isPopular": false
         }
       ]
     },
     {
-      "_id": "asd1293uasdads1",
-      "name": "Hotels with large living room",
+      "_id": "cat-mountain-hideaways",
+      "name": "Mountain hideaways with cozy living rooms",
       "items": [
         {
-          "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
+          "_id": "item-pine-ridge",
+          "name": "Pine Ridge Chalet",
           "imageUrl": "/images/image-category-5.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Switzerland",
+          "city": "Zermatt",
           "isPopular": false
         },
         {
-          "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
+          "_id": "item-aspen-loft",
+          "name": "Aspen Loft Cabin",
           "imageUrl": "/images/image-category-6.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Canada",
+          "city": "Banff",
           "isPopular": false
         },
         {
-          "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
+          "_id": "item-cedar-peak",
+          "name": "Cedar Peak Lodge",
           "imageUrl": "/images/image-category-7.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Norway",
+          "city": "Tromso",
           "isPopular": false
         },
         {
-          "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
+          "_id": "item-alpine-nest",
+          "name": "Alpine Nest Studio",
           "imageUrl": "/images/image-category-8.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Austria",
+          "city": "Innsbruck",
           "isPopular": true
         }
       ]
     },
     {
-      "_id": "asd1293uasdads1",
-      "name": "Apartments with kitchen set",
+      "_id": "cat-city-apartments",
+      "name": "City apartments with full kitchens",
       "items": [
         {
-          "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
+          "_id": "item-metro-flat",
+          "name": "Metro Skyline Flat",
           "imageUrl": "/images/image-category-9.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Singapore",
+          "city": "Marina Bay",
           "isPopular": false
         },
         {
-          "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
+          "_id": "item-old-town",
+          "name": "Old Town Residence",
           "imageUrl": "/images/image-category-10.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Czechia",
+          "city": "Prague",
           "isPopular": false
         },
         {
-          "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
+          "_id": "item-harbor-view",
+          "name": "Harbor View Apartment",
           "imageUrl": "/images/image-category-11.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Netherlands",
+          "city": "Amsterdam",
           "isPopular": true
         },
         {
-          "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
+          "_id": "item-garden-suite",
+          "name": "Garden Suite Loft",
           "imageUrl": "/images/image-category-12.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "France",
+          "city": "Lyon",
           "isPopular": false
         }
       ]
     }
   ],
   "testimonial": {
-    "_id": "asd1293uasdads1",
+    "_id": "testimonial-landing-01",
     "imageUrl": "/images/testimonial-landingpages.jpg",
-    "name": "Happy Family",
+    "name": "An Unforgettable Getaway",
     "rate": 4.55,
-    "content": "What a great trip with my family and I should try again next time soon ...",
-    "familyName": "Angga",
-    "familyOccupation": "Product Designer"
+    "content": "Booking through Voyago was effortless and the stay exceeded our expectations. We are already planning the next trip.",
+    "familyName": "The Hartono Family",
+    "familyOccupation": "Frequent Travelers"
   }
 }

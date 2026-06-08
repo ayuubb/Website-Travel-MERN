@@ -1,73 +1,73 @@
 {
-  "_id": "asd1293uasdads1",
-  "name": "Village Angga",
-  "type": "Hotel",
+  "_id": "prop-amalfi-coast-01",
+  "name": "Amalfi Cliff Retreat",
+  "type": "Villa",
   "imageUrls": [
     {
-      "_id": "asd1293uasdads1",
+      "_id": "img-featured-01",
       "url": "/images/img-featured-1.jpg"
     },
     {
-      "_id": "asd1293uasdads1",
+      "_id": "img-featured-02",
       "url": "/images/img-featured-2.jpg"
     },
     {
-      "_id": "asd1293uasdads1",
+      "_id": "img-featured-03",
       "url": "/images/img-featured-3.jpg"
     }
   ],
-  "country": "Indonesia",
-  "city": "Bogor",
-  "price": "52",
+  "country": "Italy",
+  "city": "Amalfi",
+  "price": "120",
   "unit": "night",
   "isPopular": true,
   "hasBackyard": true,
-  "description": "<p>Minimal techno is a minimalist subgenre of techno music. It ischaracterized by a stripped-down aesthetic that exploits the use ofrepetition and understated development. Minimal techno is thought tohave been originally developed in the early 1990s by Detroit-basedproducers Robert Hood and Daniel Bell.</p><p>Such trends saw the demise of the soul-infused techno that typified theoriginal Detroit sound. Robert Hood has noted that he and Daniel Bellboth realized something was missing from techno in the post-rave era.</p><p>Design is a plan or specification for the construction of an object orsystem or for the implementation of an activity or process, or theresult of that plan or specification in the form of a prototype, productor process. The national agency for design: enabling Singapore to usedesign for economic growth and to make lives better.</p>",
+  "description": "<p>Perched on the cliffs of the Amalfi Coast, this retreat pairs sweeping Mediterranean views with quiet, sunlit interiors. Wake up to the sound of the sea and unwind on a private terrace shaded by lemon trees.</p><p>The villa was thoughtfully restored to keep its original stonework while adding the comforts of a modern stay. Open spaces flow toward the water, making every room feel connected to the coastline outside.</p><p>Within a short walk you will find harbor cafes, hidden coves, and trails that wind through terraced gardens. It is an ideal base for travelers who want both seclusion and easy access to the heart of Amalfi.</p>",
   "features": [
     {
-      "_id": "asd1293uasdads1",
+      "_id": "feat-bedroom",
       "qty": "3",
       "name": "bedroom",
       "imageUrl": "/images/icon-bedroom.svg"
     },
     {
-      "_id": "asd1293uasdads1",
+      "_id": "feat-livingroom",
       "qty": "1",
       "name": "living room",
       "imageUrl": "/images/icon-livingroom.svg"
     },
     {
-      "_id": "asd1293uasdads1",
+      "_id": "feat-bathroom",
       "qty": "2",
       "name": "bath room",
       "imageUrl": "/images/icon-bathroom.svg"
     },
     {
-      "_id": "asd1293uasdads1",
+      "_id": "feat-diningroom",
       "qty": "1",
       "name": "dining room",
       "imageUrl": "/images/icon-diningroom.svg"
     },
     {
-      "_id": "asd1293uasdads1",
+      "_id": "feat-wifi",
       "qty": "10",
       "name": "mbps",
       "imageUrl": "/images/icon-wifi.svg"
     },
     {
-      "_id": "asd1293uasdads1",
+      "_id": "feat-ac",
       "qty": "2",
       "name": "units ready",
       "imageUrl": "/images/icon-airconditioner.svg"
     },
     {
-      "_id": "asd1293uasdads1",
+      "_id": "feat-refrigerator",
       "qty": "2",
       "name": "refrigerator",
       "imageUrl": "/images/icon-refrigerator.svg"
     },
     {
-      "_id": "asd1293uasdads1",
+      "_id": "feat-tv",
       "qty": "1",
       "name": "television",
       "imageUrl": "/images/icon-tv.svg"
@@ -75,77 +75,77 @@
   ],
   "activities": [
     {
-      "_id": "asd1293uasdads1",
-      "name": "Kebun Park",
+      "_id": "act-coastal-trail",
+      "name": "Coastal Trail",
       "type": "Nature",
       "imageUrl": "/images/categoryItem1.png"
     },
     {
-      "_id": "asd1293uasdads1",
-      "name": "Water land",
+      "_id": "act-lagoon-swim",
+      "name": "Blue Lagoon",
       "type": "Pool",
       "imageUrl": "/images/categoryItem2.png"
     },
     {
-      "_id": "asd1293uasdads1",
-      "name": "Kebun Park",
+      "_id": "act-lemon-grove",
+      "name": "Lemon Grove",
       "type": "Nature",
       "imageUrl": "/images/categoryItem3.png"
     },
     {
-      "_id": "asd1293uasdads1",
-      "name": "Water land",
+      "_id": "act-harbor-tour",
+      "name": "Harbor Tour",
       "type": "Pool",
       "imageUrl": "/images/categoryItem4.png"
     }
   ],
   "categories": [
     {
-      "_id": "asd1293uasdads1",
-      "name": "House with beauty backyard",
+      "_id": "cat-beachfront-escapes",
+      "name": "Beachfront escapes with ocean views",
       "items": [
         {
-          "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
+          "_id": "item-coral-bay",
+          "name": "Coral Bay House",
           "imageUrl": "/images/treasure-1.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Australia",
+          "city": "Byron Bay",
           "isPopular": false
         },
         {
-          "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
+          "_id": "item-azure-shore",
+          "name": "Azure Shore Villa",
           "imageUrl": "/images/treasure-2.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Spain",
+          "city": "Ibiza",
           "isPopular": false
         },
         {
-          "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
+          "_id": "item-palm-cove",
+          "name": "Palm Cove Bungalow",
           "imageUrl": "/images/treasure-3.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Thailand",
+          "city": "Krabi",
           "isPopular": true
         },
         {
-          "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
+          "_id": "item-driftwood",
+          "name": "Driftwood Cabin",
           "imageUrl": "/images/treasure-4.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "country": "Mexico",
+          "city": "Tulum",
           "isPopular": false
         }
       ]
     }
   ],
   "testimonial": {
-    "_id": "asd1293uasdads1",
+    "_id": "testimonial-details-01",
     "imageUrl": "/images/testimonial-detailspage.jpg",
-    "name": "Happy Family",
+    "name": "Worth Every Moment",
     "rate": 4.25,
-    "content": "What a great trip with my family and I should try again and again next time soon...",
-    "familyName": "Angga",
-    "familyOccupation": "UI Designer"
+    "content": "From check-in to check-out everything was seamless. The view alone made the trip, and we cannot wait to come back again.",
+    "familyName": "The Salim Family",
+    "familyOccupation": "Returning Guests"
   }
 }
