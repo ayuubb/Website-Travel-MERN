@@ -12,7 +12,7 @@ import itemDetails from 'json/itemDetails.json';
 
 export default class DetailsPage extends Component {
   componentDidMount() {
-    window.title = 'Detail Page';
+    window.title = 'Voyago | Property Details';
     window.scrollTo(0, 0);
   }
   render() {

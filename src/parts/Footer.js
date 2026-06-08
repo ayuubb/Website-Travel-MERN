@@ -11,7 +11,8 @@ export default function Footer() {
           <div className="col-auto" style={{ width: 350 }}>
             <IconText />
             <p className="brand-tag-line">
-              We kaboom your beauty holiday instantly and memorable.
+              Curated stays that turn your free days into journeys worth
+              remembering.
             </p>
           </div>
           <div className="col-auto mr-5">
@@ -61,25 +62,25 @@ export default function Footer() {
                 <Button
                   isExternal
                   type="link"
-                  href="mailto:support@staycation.id"
+                  href="mailto:hello@voyago.travel"
                 >
-                  support@staycation.id
+                  hello@voyago.travel
                 </Button>
               </li>
               <li className="list-group-item">
-                <Button isExternal type="link" href="tel:+622102122081996">
-                  021 - 2208 - 1996
+                <Button isExternal type="link" href="tel:+62215500123">
+                  021 - 5500 - 0123
                 </Button>
               </li>
               <li className="list-group-item">
-                <span>Staycation, Kemang, Jakarta</span>
+                <span>Voyago, Senayan, Jakarta</span>
               </li>
             </ul>
           </div>
         </div>
         <div className="row">
           <div className="col text-center copyrights">
-            Copyright 2019 • All rights reserved • Staycation
+            Copyright 2026 • All rights reserved • Voyago
           </div>
         </div>
       </div>
